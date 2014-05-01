@@ -30,4 +30,4 @@ putobj:
 clean:
 	-rm -f app
 	-rm -f $(OBJPATH)/*.o
-	-rm -f bin/*
+	-rm -f $(INSTPATH)/*
